@@ -13,7 +13,7 @@
     currentQuestionIdx: null
   };
 
-  // --- Fix: Fallback, falls questions.js nicht geladen ist ---
+  // --- Fallback, falls questions.js nicht geladen ist ---
   if (!window.QUESTION_POOL || !Array.isArray(window.QUESTION_POOL)) {
     console.warn("questions.js wurde nicht geladen oder QUESTION_POOL ist nicht definiert.");
     window.QUESTION_POOL = []; // Fallback, damit die App nicht blockiert
@@ -48,7 +48,6 @@
   const aBox         = $("#answer-box");
   const btnCorrect   = $("#btn-correct");
   const btnWrong     = $("#btn-wrong");
-  const btnNextQ     = $("#btn-next-q");
 
   const timeup       = $("#timeup");
   const btnNextPl    = $("#btn-next-player");
@@ -74,7 +73,7 @@
       playerListEl.appendChild(chip);
     });
 
-    // Fix: Start-Button aktivieren, sobald mind. 1 Spieler vorhanden ist
+    // Start-Button aktivieren, sobald mind. 1 Spieler vorhanden ist
     btnStart.disabled = state.players.length === 0 ? true : false;
   }
 
@@ -142,7 +141,7 @@
     // Fülle Roller mit RoundQueue (und ggf. Dummyzeilen für hübsches Scrollen)
     roller.innerHTML = "";
     const names = state.roundQueue.length ? state.roundQueue : ["–"];
-    const list = [...names, ...names, ...names]; // mehrfach für effekt
+    const list = [...names, ...names, ...names]; // mehrfach für Effekt
     list.forEach(n=>{
       const div = document.createElement("div");
       div.className = "slot-name";
@@ -289,22 +288,16 @@
     });
   }
 
+  // Automatischer Fragenwechsel:
   btnCorrect.addEventListener("click", ()=>{
     const p = state.currentPlayer;
     state.scores[p] = (state.scores[p] || 0) + 1;
     hudScore.textContent = state.scores[p];
-    btnNextQ.focus();
+    if (state.timer.running) nextQuestion();
   });
 
   btnWrong.addEventListener("click", ()=>{
-    // Score bleibt, einfach weiter
-    btnNextQ.focus();
-  });
-
-  btnNextQ.addEventListener("click", ()=>{
-    // Während Zeit läuft weitere Frage
-    if (!state.timer.running) return;
-    nextQuestion();
+    if (state.timer.running) nextQuestion();
   });
 
   function endPlayerTurn(){
