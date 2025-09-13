@@ -18,10 +18,10 @@
       <div class="add-player">
         <input id="player-input" type="text" inputmode="text" autocomplete="name"
                placeholder="Spielername" />
-        <button id="btn-add" class="btn primary">Hinzufügen</button>
+        <button id="btn-add" class="btn primary" type="button">Hinzufügen</button>
       </div>
 
-      <button id="btn-start" class="btn accent wide" disabled>Weiter</button>
+      <button id="btn-start" class="btn accent wide" type="button" disabled>Weiter</button>
     </section>
 
     <!-- Screen 2: Einarmiger Bandit (Spielerwahl) -->
@@ -35,8 +35,8 @@
       </div>
 
       <div class="slot-actions">
-        <button id="btn-spin" class="btn accent">Starten</button>
-        <button id="btn-accept" class="btn primary" disabled>Weiter</button>
+        <button id="btn-spin" class="btn accent" type="button">Starten</button>
+        <button id="btn-accept" class="btn primary" type="button" disabled>Weiter</button>
       </div>
 
       <p id="round-info" class="muted"></p>
@@ -68,7 +68,7 @@
       </header>
 
       <div id="start-overlay" class="start-overlay">
-        <button id="btn-go" class="start-circle">START</button>
+        <button id="btn-go" class="start-circle" type="button">START</button>
       </div>
 
       <div id="qa-area" class="qa hidden">
@@ -76,16 +76,16 @@
         <div id="answer-box" class="answer-box"></div>
 
         <div class="actions">
-          <button id="btn-correct" class="btn good">Richtig</button>
-          <button id="btn-wrong" class="btn bad">Falsch</button>
-          <button id="btn-next-q" class="btn neutral">Nächste Frage</button>
+          <button id="btn-correct" class="btn good" type="button">Richtig</button>
+          <button id="btn-wrong" class="btn bad" type="button">Falsch</button>
+          <button id="btn-next-q" class="btn neutral" type="button">Nächste Frage</button>
         </div>
       </div>
 
       <div id="timeup" class="timeup hidden">
         <h3>Zeit um!</h3>
         <p>Der Fragenhagel ist beendet.</p>
-        <button id="btn-next-player" class="btn accent">Nächster Spieler</button>
+        <button id="btn-next-player" class="btn accent" type="button">Nächster Spieler</button>
       </div>
     </section>
 
@@ -94,7 +94,7 @@
       <h2>Gesamtergebnis</h2>
       <div id="summary-table" class="summary-table"></div>
       <div class="summary-actions">
-        <button id="btn-restart" class="btn neutral">Neu starten</button>
+        <button id="btn-restart" class="btn neutral" type="button">Neu starten</button>
       </div>
     </section>
   </main>
