@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fragenhagel – Quizshow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <!-- Screen 1: Spieler hinzufügen -->
+    <section id="screen-setup" class="screen active">
+      <h1>Fragenhagel</h1>
+      <p class="sub">Füge Spieler hinzu und lege los!</p>
+
+      <div id="player-list"></div>
+
+      <div class="add-player">
+        <input id="player-input" type="text" inputmode="text" autocomplete="name"
+               placeholder="Spielername" />
+        <button id="btn-add" class="btn primary">Hinzufügen</button>
+      </div>
+
+      <button id="btn-start" class="btn accent wide" disabled>Weiter</button>
+    </section>
+
+    <!-- Screen 2: Einarmiger Bandit (Spielerwahl) -->
+    <section id="screen-slot" class="screen">
+      <h2>Wer ist dran?</h2>
+
+      <div class="slot-machine">
+        <div class="slot-window">
+          <div id="slot-roller" class="slot-roller"></div>
+        </div>
+      </div>
+
+      <div class="slot-actions">
+        <button id="btn-spin" class="btn accent">Starten</button>
+        <button id="btn-accept" class="btn primary" disabled>Weiter</button>
+      </div>
+
+      <p id="round-info" class="muted"></p>
+    </section>
+
+    <!-- Screen 3: Spielrunde -->
+    <section id="screen-play" class="screen">
+      <header class="hud">
+        <div class="hud-left">
+          <div class="player-badge">
+            <span class="label">Spieler</span>
+            <span id="hud-player" class="value"></span>
+          </div>
+          <div class="player-badge">
+            <span class="label">Punkte</span>
+            <span id="hud-score" class="value">0</span>
+          </div>
+        </div>
+        <div class="hud-right">
+          <div class="timer">
+            <span class="label">Zeit</span>
+            <span id="timer" class="value">00:00</span>
+          </div>
+          <div class="round">
+            <span class="label">Runde</span>
+            <span id="hud-round" class="value">1 / 5</span>
+          </div>
+        </div>
+      </header>
+
+      <div id="start-overlay" class="start-overlay">
+        <button id="btn-go" class="start-circle">START</button>
+      </div>
+
+      <div id="qa-area" class="qa hidden">
+        <div id="question-box" class="question-box"></div>
+        <div id="answer-box" class="answer-box"></div>
+
+        <div class="actions">
+          <button id="btn-correct" class="btn good">Richtig</button>
+          <button id="btn-wrong" class="btn bad">Falsch</button>
+          <button id="btn-next-q" class="btn neutral">Nächste Frage</button>
+        </div>
+      </div>
+
+      <div id="timeup" class="timeup hidden">
+        <h3>Zeit um!</h3>
+        <p>Der Fragenhagel ist beendet.</p>
+        <button id="btn-next-player" class="btn accent">Nächster Spieler</button>
+      </div>
+    </section>
+
+    <!-- Screen 4: Gesamtübersicht -->
+    <section id="screen-summary" class="screen">
+      <h2>Gesamtergebnis</h2>
+      <div id="summary-table" class="summary-table"></div>
+      <div class="summary-actions">
+        <button id="btn-restart" class="btn neutral">Neu starten</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Fragen-Pool: eigene Datei -->
+  <script src="questions.js" defer></script>
+  <!-- Spiel-Logik -->
+  <script src="main.js" defer></script>
+</body>
+</html>
