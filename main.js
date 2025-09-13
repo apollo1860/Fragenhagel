@@ -288,16 +288,51 @@
     });
   }
 
-  // Automatischer Fragenwechsel:
+  // ====== Automatischer Fragenwechsel nach Richtig/Falsch ======
+  let answerLock = false;
+  function setAnswerButtonsDisabled(disabled){
+    btnCorrect.disabled = disabled;
+    btnWrong.disabled = disabled;
+  }
+
+  function nextAfterAnswer(){
+    if (answerLock) return;
+    answerLock = true;
+    setAnswerButtonsDisabled(true);
+
+    // Wenn die Zeit bereits abgelaufen ist, nicht weiterblättern
+    if (state.timer.sec >= 60) {
+      // Sicherheit: sofort Endanzeige zeigen (falls noch nicht geschehen)
+      endPlayerTurn();
+      answerLock = false;
+      setAnswerButtonsDisabled(false);
+      return;
+    }
+
+    // Mini-Pause für Feedback, dann nächste Frage
+    setTimeout(() => {
+      nextQuestion();
+      answerLock = false;
+      setAnswerButtonsDisabled(false);
+    }, 150);
+  }
+
   btnCorrect.addEventListener("click", ()=>{
     const p = state.currentPlayer;
     state.scores[p] = (state.scores[p] || 0) + 1;
     hudScore.textContent = state.scores[p];
-    if (state.timer.running) nextQuestion();
+
+    // Optional visuelles Feedback (grüner Blink) auf der Antwortbox
+    aBox.animate([{filter:"brightness(1)"},{filter:"brightness(1.5)"},{filter:"brightness(1)"}], {duration:250, iterations:1});
+
+    nextAfterAnswer();
   });
 
   btnWrong.addEventListener("click", ()=>{
-    if (state.timer.running) nextQuestion();
+    // Optional visuelles Feedback (roter Blink) auf der Fragebox
+    qBox.animate([{filter:"saturate(1)"},{filter:"saturate(1.6)"},{filter:"saturate(1)"}], {duration:250, iterations:1});
+
+    nextAfterAnswer();
   });
 
   function endPlayerTurn(){
