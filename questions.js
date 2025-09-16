@@ -43,7 +43,7 @@ window.QUESTION_POOL = [
   // ===== US-Politik ===== //
   { q: "Der wievielte US-Präsident war George Washington?", a: "1" },
   { q: "Der wievielte US-Präsident war Joe Biden?", a: "46" },
-  { q: "Joe Biden schlug im US-Präsidentschaftswahlkampf seinen republikanischen Gegenkandidaten Donald ...“, a: "Trump" },
+  { q: "Joe Biden schlug im US-Präsidentschaftswahlkampf seinen republikanischen Gegenkandidaten Donald ...", a: "Trump" },
   { q: "Wie viele Sterne sind auf der US-Flagge?", a: "50" },
   { q: "Welches Tier ist das Symbol der Demokratischen Partei?", a: "Esel" },
   { q: "Welches Tier ist das Symbol der Republikanischen Partei?", a: "Elefant" },
@@ -141,6 +141,25 @@ window.QUESTION_POOL = [
   { q: "Vervollständige folgendes Sprichwort: „Liebe geht durch …“", a: "den Magen." },
   { q: "Vervollständige folgendes Sprichwort: „Ohne Fleiß …“", a: "kein Preis." },
   { q: "Vervollständige folgendes Sprichwort: „Hochmut kommt …“", a: "vor dem Fall." },
-  { q: "Vervollständige folgendes Sprichwort: „Schuster, bleib bei …“", a: "deinen Leisten." }
+  { q: "Vervollständige folgendes Sprichwort: „Schuster, bleib bei deinen ...“", a: "Leisten." },
+  // ===== Filmzitate ===== //
+// ===== Filmzitate ===== //
+{ q: "Das Filmzitat \"Möge die Macht mit dir sein\" stammt aus welchem bekannten Film?", a: "Star Wars" },
+{ q: "Das Filmzitat \"I'll be back!\" stammt aus welchem bekannten Film?", a: "Terminator" },
+{ q: "Das Filmzitat \"Hasta la vista, Baby\" stammt aus welchem bekannten Film?", a: "Terminator 2" },
+{ q: "Das Filmzitat \"Houston, wir haben ein Problem\" stammt aus welchem bekannten Film?", a: "Apollo 13" },
+{ q: "Das Filmzitat \"Schau mir in die Augen, Kleines\" stammt aus welchem bekannten Film?", a: "Casablanca" },
+{ q: "Das Filmzitat \"Hier ist Johnny!\" stammt aus welchem bekannten Film?", a: "Shining" },
+{ q: "Das Filmzitat \"Ich bin der König der Welt!\" stammt aus welchem bekannten Film?", a: "Titanic" },
+{ q: "Das Filmzitat \"Sag Hallo zu meinem kleinen Freund!\" stammt aus welchem bekannten Film?", a: "Scarface" },
+{ q: "Das Filmzitat \"Das ist Sparta!\" stammt aus welchem bekannten Film?", a: "300" },
+{ q: "Das Filmzitat \"Niemand setzt Baby in die Ecke\" stammt aus welchem bekannten Film?", a: "Dirty Dancing" },
+{ q: "Das Filmzitat \"Nach Hause telefonieren\" stammt aus welchem bekannten Film?", a: "E.T." },
+{ q: "Das Filmzitat \"Mein Schatz\" stammt aus welchem bekannten Film?", a: "Der Herr der Ringe" },
+{ q: "Das Filmzitat \"Zeig mir das Geld!\" stammt aus welchem bekannten Film?", a: "Jerry Maguire" },
+{ q: "Das Filmzitat \"You can’t handle the truth!\" stammt aus welchem bekannten Film?", a: "Eine Frage der Ehre" },
+{ q: "Das Filmzitat \"Ich sehe tote Menschen\" stammt aus welchem bekannten Film?", a: "The Sixth Sense" },
+{ q: "Das Filmzitat \"Das Leben ist wie eine Schachtel Pralinen\" stammt aus welchem bekannten Film?", a: "Forrest Gump" },
+{ q: "Das Filmzitat \"Ein Ring, sie zu knechten\" stammt aus welchem bekannten Film?", a: "Der Herr der Ringe" },
 ];
 // ---------------------------------------------
