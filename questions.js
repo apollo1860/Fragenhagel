@@ -174,8 +174,8 @@ window.QUESTION_POOL = [
 { q: "Die Lieder \"With or Without You\", \"One\" und \"Beautiful Day\" stammen von welcher bekannten Band?", a: "U2" },
 { q: "Die Lieder \"With a Little Help from My Friends\", \"You Are So Beautiful\" und \"Unchain My Heart\" stammen von welchem bekannten Musiker?", a: "Joe Cocker" },
 { q: "Die Lieder \"Lose Yourself\", \"Without Me\" und \"Stan\" stammen von welchem bekannten Musiker?", a: "Eminem" },
-{ q: "Die Lieder \"Love Story\", \"Shake It Off\" und \"Blank Space\" stammen von welchem bekannten Musiker?", a: "Taylor Swift" },
-{ q: "Die Lieder \"Roar\", \"Firework\" und \"Teenage Dream\" stammen von welchem bekannten Musiker?", a: "Katy Perry" },
+{ q: "Die Lieder \"Love Story\", \"Shake It Off\" und \"Blank Space\" stammen von welchem bekannten Musikerin?", a: "Taylor Swift" },
+{ q: "Die Lieder \"Roar\", \"Firework\" und \"Teenage Dream\" stammen von welchem bekannten Musikerin?", a: "Katy Perry" },
 { q: "Die Lieder \"Watermelon Sugar\", \"Sign of the Times\" und \"As It Was\" stammen von welchem bekannten Musiker?", a: "Harry Styles" },
 { q: "Die Lieder \"Chandelier\", \"Cheap Thrills\" und \"Elastic Heart\" stammen von welcher bekannten Musikerin?", a: "Sia" },
 { q: "Die Lieder \"Born in the U.S.A.\", \"Dancing in the Dark\" und \"Streets of Philadelphia\" stammen von welchem bekannten Musiker?", a: "Bruce Springsteen" },
@@ -189,7 +189,7 @@ window.QUESTION_POOL = [
   { q: "Welcher Planet ist in unserem Sonnensystem von der Erde am weitesten entfernt?", a: "Neptun" },
   { q: "Welcher Planet ist in unserem Sonnensystem der größte?", a: "Jupiter" },
   { q: "Welcher Planet in unserem Sonnensystem gilt als der größte Gasplanet im Sonnensystem?", a: "Jupiter" },
-  { q: "Welcher Planet ist ist in unserem Sonnensystem der Sonne am nächsten?", a: "Merkur" },
+  { q: "Welcher Planet ist in unserem Sonnensystem der Sonne am nächsten?", a: "Merkur" },
   { q: "Welcher Planet wird auch der rote Planet genannt?", a: "Mars" },
   { q: "Welcher Planet ist in unserem Sonnensystem bekannt für seine auffälligen Ringe?", a: "Saturn" },
   { q: "Wie heißt unsere Galaxie, in der sich auch die Erde befindet?", a: "Milchstraße" },
@@ -254,7 +254,7 @@ window.QUESTION_POOL = [
   { q: "Wie nennt man den Prozess, bei dem Lichtenergie genutzt wird, um aus Wasser und Kohlendioxid Sauerstoff zu erzeugen?", a: "Photosynthese" },
    // ===== Rechtschreibung ===== //
   { q: "Schreibt man das Wort \"Joghurt\" mit oder ohne H?", a: "Mit" },
-  // ===== Aus wie vielen Worten ===== //
+  // ===== Aus wie vielen Buchstaben ===== //
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Banane\"?", a: "6" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Tasche\"?", a: "6" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Blumen\"?", a: "6" },
@@ -264,7 +264,7 @@ window.QUESTION_POOL = [
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Kerzen\"?", a: "6" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Fische\"?", a: "6" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Tanzen\"?", a: "6" },
-{ q: "Aus wie vielen Buchstaben besteht das Wort \"Lachen\"?", a: "6" }
+{ q: "Aus wie vielen Buchstaben besteht das Wort \"Lachen\"?", a: "6" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Fenster\"?", a: "7" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Kirsche\"?", a: "7" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Zeitung\"?", a: "7" },
@@ -273,17 +273,13 @@ window.QUESTION_POOL = [
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Familie\"?", a: "7" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Kapitel\"?", a: "7" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Wandern\"?", a: "7" },
-{ q: "Aus wie vielen Worten besteht das Wort \"Freiheit\"", a: "8" },
-{ q: "Aus wie vielen Worten besteht das Wort \"Männlein\"", a: "8" },
-{ q: "Aus wie vielen Worten besteht das Wort \"Tonfigur\"", a: "8" },
-{ q: "Aus wie vielen Worten besteht das Wort \"Jubiläum\"", a: "8" },
+{ q: "Aus wie vielen Buchstaben besteht das Wort \"Freiheit\"", a: "8" },
+{ q: "Aus wie vielen Buchstaben besteht das Wort \"Männlein\"", a: "8" },
+{ q: "Aus wie vielen Buchstaben besteht das Wort \"Tonfigur\"", a: "8" },
+{ q: "Aus wie vielen Buchstaben besteht das Wort \"Jubiläum\"", a: "8" },
   // ===== Sport ===== //
-{ q: "In welcher Sportart bricht der Schwede Armand Duplantis regelmäßig seine eigenen Weltrekorde", a: "Stabhochsprung" },
-{ q: "Der aktuelle Weltrekord im 100-Meter-Sprint wurde von dem Jamaikaner Usain Bolt im Jahr 2009 aufgestellt. Liegt die benötigte Zeit über oder unter 10,00 Sekunden?", a: "8" },
+{ q: "In welcher Sportart bricht der Schwede Armand Duplantis regelmäßig seine eigenen Weltrekorde?", a: "Stabhochsprung" },
+{ q: "Der aktuelle Weltrekord im 100-Meter-Sprint wurde von dem Jamaikaner Usain Bolt im Jahr 2009 aufgestellt. Liegt die benötigte Zeit über oder unter 10,00 Sekunden?", a: "Unter" },
 { q: "In welcher Sportart teilten sich der Katarer Mutaz Essa Barshim und Italiener Gianmarco Tamberi bei den olympischen Spielen 2020 eine Goldmedaille?", a: "Hochsprung" }
-];
-
-
-  
 ];
 // ---------------------------------------------
