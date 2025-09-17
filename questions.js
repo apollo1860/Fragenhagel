@@ -160,6 +160,24 @@ window.QUESTION_POOL = [
 { q: "Das Filmzitat \"Ich sehe tote Menschen\" stammt aus welchem bekannten Film?", a: "The Sixth Sense" },
 { q: "Das Filmzitat \"Das Leben ist wie eine Schachtel Pralinen\" stammt aus welchem bekannten Film?", a: "Forrest Gump" },
 { q: "Das Filmzitat \"Ein Ring, sie zu knechten\" stammt aus welchem bekannten Film?", a: "Der Herr der Ringe" },
+  // ===== Mathe-Begriffe ===== //
+{ q: "Wie nennt man in der Mathematik die Zahl, die sich unter dem Bruchstrich befindet", a: "Nenner" },
+{ q: "Wie nennt man in der Mathematik die Zahl, die sich über dem Bruchstrich befindet", a: "Zähler" },
+{ q: "Die mathematische Gleichung a im Quadrat plus b im Quadrat ist gleich C im Quadrat nennt man auch Satz des ...", a: "Pythagoras" },
+{ q: "Das Ergebnis einer Addition nennt man ...", a: "Summe" },
+{ q: "Das Ergebnis einer Division nennt man ...", a: "Quotient" },
+{ q: "Wie nennt man in der Mathematik die Zahl, die sich unter dem Bruchstrich befindet", a: "Nenner" },
+  // ===== Kleines 1 x 1 ===== //
+{ q: "5 mal 5 ist ...", a: "25" },
+{ q: "6 mal 6 ist ...", a: "36" }, 
+{ q: "7 mal 7 ist ...", a: "49" },  
+{ q: "8 mal 8 ist ...", a: "64" },
+{ q: "9 mal 9 ist ...", a: "81" },
+{ q: "3 mal 9 ist ...", a: "27" },
+{ q: "4 mal 8 ist ...", a: "32" },
+{ q: "5 mal 7 ist ...", a: "35" },
+{ q: "3 mal 8 ist ...", a: "24" },
+{ q: "4 mal 7 ist ...", a: "28" },
   // ===== Bekannte Lieder ===== //
 { q: "Die Lieder \"Bohemian Rhapsody\", \"We Will Rock You\" und \"Don’t Stop Me Now\" stammen von welcher bekannten Band?", a: "Queen" },
 { q: "Die Lieder \"Uptown Funk\", \"24K Magic\" und \"Just The Way You Are\" stammen von welchem bekannten Musiker?", a: "Bruno Mars" },
@@ -246,6 +264,11 @@ window.QUESTION_POOL = [
   { q: "Welcher Fußballverein trägt den Spitznamen \"Gunners\"?", a: "Arsenal FC" },
   { q: "Welcher Fußballverein trägt den Spitznamen \"Citizens\"?", a: "Manchester City" },
   { q: "Welcher Fußballverein trägt den Spitznamen \"Blaugrana\"?", a: "FC Barcelona" },
+  // ===== Sprachen ===== //
+  { q: "Wenn man mit dem Wort \"Merhaba\" begrüßt wird, ist man in welchem Land?", a: "Türkei" },
+  { q: "Wenn man mit dem Wort \"Kon'nichiwa\" begrüßt wird, ist man in welchem Land?", a: "Japan" },
+  { q: "Wenn man mit dem Wort \"Ni hao\" begrüßt wird, ist man in welchem Land?", a: "China" }, 
+  { q: "Wenn man mit dem Wort \"Namaste\" begrüßt wird, ist man in welchem Land?", a: "Indien" },   
    // ===== Sonstiges ===== //
   { q: "Das Oktoberfest in München beginnt in welchem Monat?", a: "September" },  
   { q: "Welches berühmte Wirtschaftsmagazin listet jedes Jahr die reichsten Menschen der Welt auf?", a: "Forbes" },
