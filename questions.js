@@ -100,6 +100,16 @@ window.QUESTION_POOL = [
   { q: "Der römische Kaiser Tiberius starb 37 v. Chr. oder n. Chr.?", a: "n. Chr." },
   { q: "Der Apostel Petrus starb um 64 v. Chr. oder n. Chr.?", a: "n. Chr." },
   { q: "Der römische Kaiser Caligula starb 41 v. Chr. oder n. Chr.?", a: "n. Chr." },
+   // ===== Sehenswürdigkeiten ===== //
+  { q: "In welcher Stadt steht die Elbphilharmonie?", a: "Hamburg" },
+  { q: "In welcher Stadt steht die Semperoper?", a: "Dresden" },
+  { q: "In welcher Stadt steht das Hundertwasserhaus?", a: "Magdeburg" },
+  { q: "In welcher Stadt steht die Karl-Marx-Monument?", a: "Chemnitz" },
+  { q: "In welcher Stadt steht die Hohenzollernbrücke mit Liebesschlössern?", a: "Köln" },
+  { q: "In welcher Stadt steht das Gutenberg-Museum?", a: "Mainz" },
+  { q: "In welcher Stadt steht der Signal Iduna Park", a: "Dortmund" },
+  { q: "In welcher Stadt steht das Schloss Nymphenburg?", a: "München" },
+  { q: "In welcher Stadt steht der Main-Tower", a: "Frankfurt am Main" },
   // ===== Primzahl ===== //
   { q: "Welche Primzahl folgt auf 23?", a: "29" },
   { q: "Welche Primzahl folgt auf 29?", a: "31" },
