@@ -177,6 +177,14 @@ window.QUESTION_POOL = [
 { q: "Das Ergebnis einer Addition nennt man ...", a: "Summe" },
 { q: "Das Ergebnis einer Division nennt man ...", a: "Quotient" },
 { q: "Wie nennt man in der Mathematik die Zahl, die sich unter dem Bruchstrich befindet", a: "Nenner" },
+{ q: "Wie nennt man in der Geometrie die Linie, die einen Kreis in zwei gleiche Hälften teilt?", a: "Durchmesser" },
+  { q: "Wie nennt man in der Geometrie das Viereck, dessen gegenüberliegende Seiten gleich lang und parallel sind?", a: "Rechteck" },
+  { q: "Wie nennt man das Resultat einer Multiplikation?", a: "Produkt" },
+  { q: "Was ist das Ergebnis einer Subtraktion?", a: "Differenz" },
+  { q: "Wie nennt man eine Linie, die von einem Punkt zu einem anderen gezogen wird und dabei die kürzeste Verbindung darstellt?", a: "Strecke" },
+  { q: "Welche Zahl nennt man die Basis einer Exponentialfunktion?", a: "Exponent" },
+  { q: "Wie nennt man das Prinzip, dass bei einer Multiplikation die Reihenfolge der Faktoren das Ergebnis nicht beeinflusst?", a: "Kommutativgesetz" },
+  { q: "Wie nennt man in der Algebra eine Zahl, die mit einer Variablen multipliziert wird?", a: "Koeffizient" },
   // ===== Kleines 1 x 1 ===== //
 { q: "5 mal 5 ist ...", a: "25" },
 { q: "6 mal 6 ist ...", a: "36" }, 
@@ -301,6 +309,13 @@ window.QUESTION_POOL = [
   { q: "Die englischssprachige Abkürzung 'IRL' steht für ...", a: "In Real Life" },
   { q: "Die englischssprachige Abkürzung 'NGL' steht für ...", a: "Not Gonna Lie" },
   { q: "Die englischssprachige Abkürzung 'NSFW' steht für ...", a: "Not Safe For Work" }, 
+  { q: "Die Abkürzung 'BR' steht für ...", a: "Bayerischer Rundfunk" },
+  { q: "Die Abkürzung 'ZDF' steht für ...", a: "Zweites Deutsches Fernsehen" },
+  { q: "Die Abkürzung 'SWR' steht für ...", a: "Südwestrundfunk" },
+  { q: "Die Abkürzung 'HR' steht für ...", a: "Hessischer Rundfunk" },
+  { q: "Die Abkürzung 'MDR' steht für ...", a: "Mitteldeutscher Rundfunk" },
+  { q: "Die Abkürzung 'NDR' steht für ...", a: "Norddeutscher Rundfunk" },
+  { q: "Die Abkürzung 'ARD' steht für ...", a: "Arbeitsgemeinschaft der öffentlich-rechtlichen Rundfunkanstalten der Bundesrepublik Deutschland" }
    // ===== Sonstiges ===== //
   { q: "Das Oktoberfest in München beginnt in welchem Monat?", a: "September" },  
   { q: "Welches berühmte Wirtschaftsmagazin listet jedes Jahr die reichsten Menschen der Welt auf?", a: "Forbes" },
@@ -332,9 +347,17 @@ window.QUESTION_POOL = [
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Männlein\"", a: "8" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Tonfigur\"", a: "8" },
 { q: "Aus wie vielen Buchstaben besteht das Wort \"Jubiläum\"", a: "8" },
-  // ===== Sport ===== //
-{ q: "In welcher Sportart bricht der Schwede Armand Duplantis regelmäßig seine eigenen Weltrekorde?", a: "Stabhochsprung" },
-{ q: "Der aktuelle Weltrekord im 100-Meter-Sprint wurde von dem Jamaikaner Usain Bolt im Jahr 2009 aufgestellt. Liegt die benötigte Zeit über oder unter 10,00 Sekunden?", a: "Unter" },
-{ q: "In welcher Sportart teilten sich der Katarer Mutaz Essa Barshim und Italiener Gianmarco Tamberi bei den olympischen Spielen 2020 eine Goldmedaille?", a: "Hochsprung" }
+  // ===== Sportrekorde ===== //
+  { q: "In welcher Sportart bricht der Schwede Armand Duplantis regelmäßig seine eigenen Weltrekorde?", a: "Stabhochsprung" },
+  { q: "Der aktuelle Weltrekord im 100-Meter-Sprint wurde von dem Jamaikaner Usain Bolt im Jahr 2009 aufgestellt. Liegt die benötigte Zeit über oder unter 10,00 Sekunden?", a: "Unter" },
+  { q: "In welcher Sportart teilten sich der Katarer Mutaz Essa Barshim und Italiener Gianmarco Tamberi bei den olympischen Spielen 2020 eine Goldmedaille?", a: "Hochsprung" },
+  { q: "In welcher Sportart gewann die US-Amerikanerin Simone Biles insgesamt 7 Olympiamedaillen?", a: "Turnen" },
+  { q: "Wie nennt man den bekanntesten französischen Radrennfahrer, der die Tour de France insgesamt 7 Mal gewann?", a: "Lance Armstrong" },
+  { q: "In welcher Sportart treten die besten Spieler der Welt in einem jährlich stattfindenden Turnier in Wimbledon an?", a: "Tennis" },
+  { q: "In welcher Sportart wurde der deutsche Sportler Michael Schumacher sieben Mal Formel-1-Weltmeister?", a: "Formel 1" },
+  { q: "In welcher Sportart werden die bekanntesten Wettkämpfe im 'Springreiten' veranstaltet?", a: "Pferdesport" },
+  { q: "In welchem Jahr fand die Fußball-Weltmeisterschaft in Deutschland statt?", a: "2006" },
+  { q: "Wie nennt man den Fußballspieler, der als einer der größten aller Zeiten gilt und den Spitznamen 'La Pulga' trägt?", a: "Lionel Messi" },
+  { q: "In welcher Sportart gewann der jamaikanische Sprinter Usain Bolt insgesamt 8 olympische Goldmedaillen?", a: "Leichtathletik" }
 ];
 // ---------------------------------------------
